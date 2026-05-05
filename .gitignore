@@ -1,0 +1,16 @@
+# Python environment
+.env
+__pycache__/
+*.pyc
+
+# Local Streamlit config
+.streamlit/
+
+# Large model files (if any)
+*.bin
+*.onnx
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
