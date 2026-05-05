@@ -6,8 +6,8 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 import streamlit as st
 from dotenv import load_dotenv
 
-from core.llm import build_chat_chain
-from core.retriever import build_vectorstore_from_uploads
+from llm import build_chat_chain
+from retriever import build_vectorstore_from_uploads
 
 
 load_dotenv()
